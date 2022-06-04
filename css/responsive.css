@@ -1,0 +1,133 @@
+/* // Extra Small devices (landscape phones, 320 and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+    .navbar-brand img {
+        width: 100px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(255, 255, 255, 0.99);
+        border-color: rgba(255, 255, 255, 0.99);
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.99)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .banner_overlay {
+        padding: 133px 0px 50px;
+    }
+
+    .banner_content p {
+        color: #fff;
+        padding: 0px 0px 20px;
+    }
+
+    .banner_content a {
+        margin-top: 30px;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .banner_part .carousel-indicators {
+        bottom: -30px;
+    }
+
+    .menu .nav-item .nav-link {
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    .navbar-collapse.show {
+        background: rgba(0, 0, 0, 0.79);
+    }
+
+    .about_content h3 {
+        font-size: 22px;
+    }
+
+    .about_content h3::before {
+        height: 45px;
+    }
+
+    .about_content p {
+        padding: 15px 0px;
+    }
+
+    .about_content a.btn_com {
+        margin-bottom: 30px;
+    }
+
+    .py_70 {
+        padding: 40px 0px;
+    }
+
+    .mmt_30 {
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .steps_bt_banner_content h2 {
+        padding-bottom: 30px;
+    }
+
+    .py_100 {
+        padding: 50px 0px;
+    }
+
+    .steps_bt_banner_content a.btn_com {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .common_heading h3::after {
+        height: 22px;
+    }
+
+    .supp_img img {
+        margin-bottom: 30px;
+    }
+
+    .supp_content h3 {
+        padding-bottom: 10px;
+    }
+
+    .supp_content ul {
+        padding-left: 15px;
+    }
+
+    .ct_content h2 {
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom: 20px
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    ...
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    ...
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    ...
+}
